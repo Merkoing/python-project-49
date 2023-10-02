@@ -4,3 +4,5 @@
 <a href="https://codeclimate.com/github/Merkoing/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/f0a6d4509ade1ee00dd7/maintainability" /></a>
 
 https://asciinema.org/a/YuLtw9JDTqL3mmCsiQG6SXSDI
+
+https://asciinema.org/a/G68lOINZGzRIIYy44zPNggaaB

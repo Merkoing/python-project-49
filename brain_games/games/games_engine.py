@@ -9,6 +9,7 @@ def play(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.RULE)
+    wrong_answer = ' is wrong answer ;(. Correct answer was '
 
     for _ in range(ROUND_MAX):
         question, correct_answer = game.game_data()
@@ -18,7 +19,7 @@ def play(game):
         if user_answer == correct_answer:
             print('Correct!')
         else:
-            print(f"'{user_answer}' is wrong answer ;(. \Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}{wrong_answer}{correct_answer}'.")
             print(f"Let's try again, {name}!")
             break
     else:

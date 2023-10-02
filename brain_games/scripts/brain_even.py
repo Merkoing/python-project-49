@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+
 from brain_games.games.games_engine import play
 from brain_games.games import even_game
-
 
 
 def main():
@@ -9,4 +9,4 @@ def main():
 
 
 if __name__ == '__main__':
-        main()
+    main()
