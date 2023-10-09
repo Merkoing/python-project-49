@@ -19,7 +19,7 @@ def play(game):
         if user_answer == correct_answer:
             print('Correct!')
         else:
-            print(f"'{user_answer}{wrong_answer}{correct_answer}'.")
+            print(f"'{user_answer} {wrong_answer} {correct_answer}'.")
             print(f"Let's try again, {name}!")
             break
     else:
