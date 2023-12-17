@@ -2,10 +2,12 @@ import random
 
 RULE = 'What is the result of the expression?'
 
+MIN_NUMBER = 0
+MAX_NUMBER = 20
 
-def game_data():
-    first_number = random.randint(0, 20)
-    second_number = random.randint(0, 20)
+def get_game_data():
+    first_number = random.randint(MIN_NUMBER, MAX_NUMBER)
+    second_number = random.randint(MIN_NUMBER, MAX_NUMBER)
 
     operators = ['+', '-', '*']
     operator = random.choice(operators)

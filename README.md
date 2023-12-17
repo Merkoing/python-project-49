@@ -29,12 +29,12 @@ $ brain-prime
 
 ### Demonstration
 
-https://asciinema.org/a/YuLtw9JDTqL3mmCsiQG6SXSDI
+[![asciicast](https://asciinema.org/a/gmnJb9EUijRvFUAA4gSPh8uSL.svg)](https://asciinema.org/a/gmnJb9EUijRvFUAA4gSPh8uSL)
 
-https://asciinema.org/a/G68lOINZGzRIIYy44zPNggaaB
+[![asciicast](https://asciinema.org/a/xi3aASokaBaHr0gzbFlZ3T1q4.svg)](https://asciinema.org/a/xi3aASokaBaHr0gzbFlZ3T1q4)
 
-https://asciinema.org/a/gkJCxZJ3kphMhQqt7JjHGLttP
+[![asciicast](https://asciinema.org/a/sSJ5txWXvENRK1MPjtSFfyBYt.svg)](https://asciinema.org/a/sSJ5txWXvENRK1MPjtSFfyBYt)
 
-https://asciinema.org/a/1Bj0WzlG0bgEyhJq1Ds4hW85T
+[![asciicast](https://asciinema.org/a/IdzWn1zLE3K2AbQj9W89JWUtt.svg)](https://asciinema.org/a/IdzWn1zLE3K2AbQj9W89JWUtt)
 
-https://asciinema.org/a/TxSfMLGMFo38m8qttYNgAfJC2
+[![asciicast](https://asciinema.org/a/S68zGbugRaPCp66pLd95ixLS3.svg)](https://asciinema.org/a/S68zGbugRaPCp66pLd95ixLS3)

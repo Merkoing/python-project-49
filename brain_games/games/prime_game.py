@@ -4,6 +4,9 @@ import math
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
+MIN_NUMBER = 0
+MAX_NUMBER = 50
+
 def is_prime(number):
     if number <= 1:
         return False
@@ -15,8 +18,8 @@ def is_prime(number):
     return True
 
 
-def game_data():
-    question = random.randint(0, 50)
+def get_game_data():
+    question = random.randint(MIN_NUMBER, MAX_NUMBER)
 
     if is_prime(question):
         correct_answer = 'yes'
