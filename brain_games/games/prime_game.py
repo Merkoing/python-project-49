@@ -7,6 +7,7 @@ RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 MIN_NUMBER = 0
 MAX_NUMBER = 50
 
+
 def is_prime(number):
     if number <= 1:
         return False
