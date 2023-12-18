@@ -19,7 +19,7 @@ def is_prime(number):
     return True
 
 
-def get_game_data():
+def get_data():
     question = random.randint(MIN_NUMBER, MAX_NUMBER)
 
     if is_prime(question):

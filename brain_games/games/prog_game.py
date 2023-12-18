@@ -22,7 +22,7 @@ def generate_question_and_answer(progression, hidden_index):
     return question, correct_answer
 
 
-def get_game_data():
+def get_data():
     start_number = random.randint(MIN_START_NUMBER, MAX_START_NUMBER)
     progression_size = random.randint(MIN_PROG_SIZE, MAX_PROG_SIZE)
     step = random.randint(MIN_STEP, MAX_STEP)

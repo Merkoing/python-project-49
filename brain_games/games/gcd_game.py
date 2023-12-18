@@ -7,7 +7,7 @@ MIN_NUMBER = 1
 MAX_NUMBER = 100
 
 
-def get_game_data():
+def get_data():
     first_number = random.randint(MIN_NUMBER, MAX_NUMBER)
     second_number = random.randint(MIN_NUMBER, MAX_NUMBER)
 

@@ -12,7 +12,7 @@ def play(game):
     incorrect_prompt = ' is wrong answer ;(. Correct answer was '
 
     for _ in range(ROUND_MAX):
-        question, correct_answer = game.get_game_data()
+        question, correct_answer = game.get_data()
 
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')

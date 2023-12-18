@@ -10,7 +10,7 @@ def is_even(number):
     return number % 2 == 0
 
 
-def get_game_data():
+def get_data():
     question = random.randint(MIN_NUMBER, MAX_NUMBER)
     correct_answer = 'yes' if is_even(question) else 'no'
 
