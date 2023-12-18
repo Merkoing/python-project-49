@@ -2,16 +2,16 @@ import random
 
 RULE = 'What number is missing in the progression?'
 
-MIN_START_NUMBER = 0
-MAX_START_NUMBER = 10
-MIN_PROG_SIZE = 5
-MAX_PROG_SIZE = 10
-MIN_STEP = 1
-MAX_STEP = 10
+MIN_INITIAL_TERM = 0
+MAX_INITIAL_TERM = 10
+MIN_PROGRESSION_LENGTH = 5
+MAX_PROGRESSION_LENGTH = 10
+MIN_DIFFERENCE = 1
+MAX_DIFFERENCE = 10  
 
 
-def generate_progression(start, length, step):
-    return [start + i * step for i in range(length)]
+def generate_progression(initial_term, length, difference):
+    return [initial_term + i * difference for i in range(length)]
 
 
 def generate_question_and_answer(progression, hidden_index):
@@ -23,10 +23,10 @@ def generate_question_and_answer(progression, hidden_index):
 
 
 def get_data():
-    start_number = random.randint(MIN_START_NUMBER, MAX_START_NUMBER)
-    progression_size = random.randint(MIN_PROG_SIZE, MAX_PROG_SIZE)
-    step = random.randint(MIN_STEP, MAX_STEP)
-    progression = generate_progression(start_number, progression_size, step)
+    initial_term = random.randint(MIN_INITIAL_TERM, MAX_INITIAL_TERM)
+    progression_length = random.randint(MIN_PROGRESSION_LENGTH, MAX_PROGRESSION_LENGTH)
+    difference = random.randint(MIN_DIFFERENCE, MAX_DIFFERENCE)
+    progression = generate_progression(initial_term, progression_length, difference)
 
     hidden_index = random.randint(0, len(progression) - 1)
 
